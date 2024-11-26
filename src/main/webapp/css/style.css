@@ -1,0 +1,36 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f0; /* Cor de fundo suave */
+    color: #333; /* Cor de texto padrão */
+}
+
+/* Classe para deixar a fonte dos labels com cor azul e negrito */
+.label-blue-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Estilo para todos os títulos <h1> com cor diferente de preto */
+h1 {
+    color: #2a9d8f; /* Escolha de cor verde-azulada para os títulos <h1> */
+}
+
+/* Classe para botões com bordas arredondadas */
+.button-rounded {
+    border-radius: 12px; /* Borda arredondada */
+    padding: 0.5rem 1rem; /* Padding para melhorar a área de clique */
+    border: 1px solid #007bff; /* Borda com cor */
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Adicionar efeito de hover para os botões */
+.button-rounded:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
